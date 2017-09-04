@@ -10,7 +10,12 @@
             <h1>{{ name }}</h1>
             <p>{{ job }}</p>
             <h1>{{work('xamaali')}}</h1>
-            <a v-bind:href="website">Where to find work...</a>
+            <p>I am {{age}}</p>
+            <button v-on:click.once="add(1)">Add a year</button>
+            <button v-on:click="subtract(1)">Subtract a year</button>
+            <button v-on:dblclick="add(10)">Add 10 years</button>
+            <button v-on:dblclick="subtract(10)">Subtract 10 years</button>
+        </br><a v-bind:href="website">Where to find work...</a>
         </div>
         <script src="app.js"></script>
     </body>
