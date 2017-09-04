@@ -17,6 +17,14 @@ new Vue({
 
         subtract: function(val){
             this.age -= val;
+        },
+
+        logName: function(){
+            console.log("Somethings going on in this box.....");
+        },
+
+        logAge: function(){
+            console.log("Something fishy is going on here....I can feel it");
         }
     }
 });
