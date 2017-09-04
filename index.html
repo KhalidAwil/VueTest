@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://unpkg.com/vue"></script>
+    </head>
+    <body>
+        <div id="vue-app">
+            <h1>{{ name }}</h1>
+            <p>{{ job }}</p>
+            <h1>{{work('xamaali')}}</h1>
+            <a v-bind:href="website">Where to find work...</a>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
