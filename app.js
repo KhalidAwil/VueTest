@@ -9,6 +9,7 @@ new Vue({
         website: "http://www.monster.com"
     },
     methods: {
+        //Methods always run the function whenever a re-render happens.
         work: function(occupation){
             return 'Im working as a ' + occupation
         },
