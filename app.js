@@ -6,6 +6,11 @@ new Vue({
         age: 22,
         a: 5,
         b: 10,
+        myTeams: [
+            {name: "Trail Blazers", city: "Portland"},
+            {name: "Senators", city: "Ottawa"},
+            {name: "FC Bayern Munich", city: "Munich"}
+        ],
         website: "http://www.monster.com"
     },
     methods: {
