@@ -4,6 +4,7 @@
         <title></title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://unpkg.com/vue"></script>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
     </head>
     <body>
         <div id="vue-app">
@@ -32,6 +33,11 @@
             <p>B - {{b}}</p>
             <p>Age + a = {{addToA}}</p>
             <p>Age + b = {{addToB}}</p>
+
+            <h1>Loooooops</h1>
+            <ul>
+                <li v-for="team in myTeams" v-bind:class="team.color">Name: {{team.name}}  - City: {{team.city}} </li>
+            </ul>
         </div>
         <script src="app.js"></script>
     </body>
